@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Simon Summoning</title>
+		<link rel="stylesheet" href="simonstyles.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="startUpBar">
+				<input id="startGame" type="button" value="Start Game" onclick=startGame()>  Stage Number: <input id="StageNumber" type="button" value="0">
+
+				
+			</div>
+		</header>
+		
+		<div class="rules">
+			<p id="basic">When playing, remember the rules, as they will only be visible for a short time.  Click the appropriate colors to proceed to the next stage.
+			"Swap" means to replace all instances of one color with another.
+			"Reverse the list" means to reverse the order of the buttons to press.
+			</p>
+			<input class="responseButton" id="button7" type="button" value=" 7 " onclick=pressLightBlue()>
+			<input class="responseButton" id="button8" type="button" value=" 8 " onclick=pressWhite()>
+			<input class="responseButton" id="button9" type="button" value=" 9 " onclick=pressBrown()><br>
+			<input class="responseButton" id="button4" type="button" value=" 4 " onclick=pressPurple()>
+			<input class="responseButton" id="button5" type="button" value=" 5 " onclick=pressOrange()>
+			<input class="responseButton" id="button6" type="button" value=" 6 " onclick=pressPink()><br>
+			<input class="responseButton" id="button1" type="button" value=" 1 " onclick=pressRed()>
+			<input class="responseButton" id="button2" type="button" value=" 2 " onclick=pressDarkBlue()>
+			<input class="responseButton" id="button3" type="button" value=" 3 " onclick=pressGreen()><br>
+			<p id="instructions"> Instructions:
+		
+		
+		<script src="simonjs.js"></script>
+	</body>
+	
+	<footer>
+	</footer>
+</html>

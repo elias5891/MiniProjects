@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Codenames Duet Play</title>
+		<link rel="stylesheet" href="cndstyles.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="startUpBar">
+				<input id="startGame" type="button" value="Generate Board" onclick=generateBoard()>
+				<input id="seedNumber" value="5891"><button id='random' onclick=randomizeSeedGen()>Randomize Seed</button>
+				<input type="radio" name="playerValue" value="1" checked="checked"> Player 1
+				<input type="radio" name="playerValue" value="2"> Player 2
+				<p id='countdownTimer'> 
+				</p>
+				
+			</div>
+		</header>
+		
+		<div class="tableLooks" width='25%'>
+			<p id="keyWordTable"></p>
+		</div>			
+		
+		<div class="tableLooks" width='65%'>
+			<p id="playBoard"></p>
+		</div>			
+		
+		
+		<script src="cndscripts.js"></script>
+	</body>
+	
+	<footer>
+	</footer>
+</html>

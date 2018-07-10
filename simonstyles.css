@@ -1,0 +1,39 @@
+* {
+	background-color: black;
+	color: white;
+}
+
+#startGame,
+#StageNumber {
+	background-color: white;
+	color: black;
+	font-size: 2rem;
+}
+	
+.startUpBar {
+	font-size: 2rem;
+}
+
+#button1 { font-size: 2rem; background-color: red; }
+#button2 { font-size: 2rem; background-color: darkblue; }
+#button3 { font-size: 2rem; background-color: green; }
+#button4 { font-size: 2rem; background-color: purple; }
+#button5 { font-size: 2rem; background-color: orange; color: black;}
+#button6 { font-size: 2rem; background-color: pink; color: black;}
+#button7 { font-size: 2rem; background-color: lightblue; color: black;}
+#button8 { font-size: 2rem; background-color: white; color: black;}
+#button9 { font-size: 2rem; background-color: #662900; }
+
+.responseButton {
+	width: 50px;
+	height: 50px;
+	border-radius: 23px;
+}
+
+button {
+	font-size: 3rem;
+}
+
+.rules {
+	text-align: center;
+}

@@ -1,0 +1,73 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to bottom right, rgb(0,0,0), rgb(5,5,5));
+}
+
+.startUpBar {
+	color: white;
+	font-size: 2rem;
+	display: inline-block;
+}
+
+.tableLooks {
+	color: white;
+	font-size: 1.75rem;
+	display:inline-block;
+	width: 100%;
+}
+
+td {
+	border: 1px dotted white;
+	padding: 5px;
+	text-align: center;
+}
+
+.genboard tr:first-child {
+	background-color: #555;
+}
+
+input:focus { 
+    background-color: lightgrey;
+}
+
+.column {
+	padding: 1em 1em;
+	display: inline-block;
+	width: 45%;
+	margin-right: -4px;
+	vertical-align: bottom;
+	padding: 0 2em;
+}
+
+.greenButton {
+	background-color: #5555ff;
+}
+
+.blackButton {
+	background-color: red;
+}
+
+.tanButton {
+	background-color: tan;
+}
+
+.greenButton,
+.playerButton,
+.blackButton,
+.tanButton {
+	font-size: 1.5rem;
+}
+
+.keyBoardTable {
+	margin: 4px;
+	padding: 4px;
+	}
+	
+.activePlayerButton {
+	background-color: green;
+}
+

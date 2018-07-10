@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Facts in Five Play</title>
+		<link rel="stylesheet" href="fifstyles.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="startUpBar">
+				<input id="startGame" type="button" value="Generate Board" onclick=generateBoard()>
+				<input id="scoreGame" type="button" value="Score Game" onclick=scoreBoard()>
+				<input id="seedNumber" value="5891"><button id='random' onclick=randomizeSeedGen()>Randomize Seed</button>
+				<p id='countdownTimer'>  Time Remaining:  300</p>
+				
+			</div>
+		</header>
+		
+		<div class="tableLooks">
+			<p id="gameplayTable"></p>
+		</div>			
+		
+		<div class="tableLooks" width='100%'>
+			<p id="scoringTable"></p>
+		</div>			
+		
+		
+		<script src="fifscripts.js"></script>
+	</body>
+	
+	<footer>
+	</footer>
+</html>
