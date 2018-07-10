@@ -1,0 +1,25 @@
+* {
+	background-color: black;
+}
+
+.CLOCK {
+	font-size: 4rem;
+	color: white;
+}
+
+.tickTock {
+	font-size: 6rem;
+	color: white;
+	text-align: center;
+}
+
+button {
+	font-size: 2rem;
+	padding: 20px;
+	background-color: white;
+}
+
+.colorLookup {
+	font-size: 1rem;
+	color: white;	
+}
