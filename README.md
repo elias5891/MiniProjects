@@ -1,5 +1,5 @@
 # Stopwatch:
-*clock.html, clockcode.js, clockstyling.css
+*clock.html, clockcode.js, clockstyling.css*
 
 Live version:  http://elias5891.com/clock.html
 
